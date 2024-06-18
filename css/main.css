@@ -40,6 +40,7 @@ border-style: solid;
     flex-direction: column;
     justify-content: center;
     row-gap: 10px;
+    color: white;
     
 }
 
@@ -54,6 +55,7 @@ border-style: solid;
     background-color: #b40000;
     color: white;
     font-size: 20px;
+    border: none;
 }
 
 
