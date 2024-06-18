@@ -26,24 +26,37 @@ nav button {
 background-color: white;
 padding: 10px 20px;
 height: fit-content;
-border-color: rgb(68, 227, 255);
+border-color: #b40000;
 border-width: 2px;
 border-style: solid;
 }
 
 #hero {
-    background-image: url('../assets/images/hero1.jpg') ;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/images/hero1.jpg') ;
     height: 100vh;
     width: 100vw;
     background-size: cover ;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    row-gap: 10px;
+    
 }
 
 #hero-text {
     font-size: 60px;
 }
+
+#hero-button {
+    padding: 21px 31px;
+    width: 200px;
+    height: 60px;
+    background-color: #b40000;
+    color: white;
+    font-size: 20px;
+}
+
+
 
 
 #about-section {
