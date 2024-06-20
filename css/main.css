@@ -154,3 +154,10 @@ border-style: solid;
     color: #2d0000;
     font-weight: bold;
 }
+
+#skilled-nursing-care {
+    height: 30vh;
+    width: 30vw;
+    background-color: #ffffff;
+    align-items: center;
+}
