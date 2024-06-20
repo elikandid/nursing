@@ -156,8 +156,27 @@ border-style: solid;
 }
 
 #skilled-nursing-care {
-    height: 30vh;
-    width: 30vw;
+    /* height: 30vh;
+    width: 30vw; */
     background-color: #ffffff;
-    align-items: center;
+    /* align-items: center; */
+}
+
+#our-service-list {
+    width: 60vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icons-container {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: #fbf2f2;
+}
+
+.service-icons {
+    width: 3px ;
+    height: 30px;
 }
